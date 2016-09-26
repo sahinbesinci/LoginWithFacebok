@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Login Facebook</string>
+    <string name="title_activity_logout">Log out</string>
+    <string name="update_status">Durum</string>
+    <string name="post_image">Resim</string>
+    <string name="facebook_app_id">1112836135459439</string>
+</resources>
