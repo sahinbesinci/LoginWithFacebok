@@ -63,15 +63,15 @@ public class LogoutActivity extends Activity {
         btnLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                PrefUtils.clearCurrentUser(LogoutActivity.this);
 
+                PrefUtils.clearCurrentUser(LogoutActivity.this);
 
                 // We can logout from facebook by calling following method
                 LoginManager.getInstance().logOut();
 
-
                 Intent i= new Intent(LogoutActivity.this,LoginActivity.class);
                 startActivity(i);
+
                 finish();
             }
         });

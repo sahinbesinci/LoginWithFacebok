@@ -66,6 +66,6 @@ public class ComplexPreferences {
         }
     }
     public void clearObject() {
-        complexPreferences.clearObject();
+        editor.clear();
     }
 }
